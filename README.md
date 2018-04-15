@@ -11,7 +11,7 @@ From the application directory, run the following command:
 ```sh
 $ composer archive create -t dir -n .
 ```
-After the command has run, a business network archive file called social-care@0.0.1.bna has been created in the current directory.
+After the command has run, a business network archive file called `social-care@0.0.1.bna` has been created in the current directory.
 
 ### Running locally
 
