@@ -47,7 +47,7 @@ To create the REST API, navigate to the tutorial-network directory and run the f
 ```sh
 $ composer-rest-server
 ```
-Enter `admin@tutorial-network` as the card name.
+Enter `admin@social-care` as the card name.
 
 Select **never use namespaces** when asked whether to use namespaces in the generated API.
 
