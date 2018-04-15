@@ -1,7 +1,17 @@
 # Social Care Document Validation with Hyperledger Blockchain Technology
 
+This project is based on this [Hyperledger Developer Tutorial](https://hyperledger.github.io/composer/latest/tutorials/developer-tutorial.html).
+
 ### Pre requisites
-To run this locally, it is necessary to install [Hypelerger development tools](https://hyperledger.github.io/composer/latest/installing/development-tools.html).
+To run this locally, it is necessary to install [Hyperledger Development Tools](https://hyperledger.github.io/composer/latest/installing/development-tools.html).
+
+### Build
+
+From the application directory, run the following command:
+```sh
+$ composer archive create -t dir -n .
+```
+After the command has run, a business network archive file called social-care@0.0.1.bna has been created in the current directory.
 
 ### Running locally
 
