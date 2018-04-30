@@ -1,22 +1,11 @@
 namespace org.socialcare.chain
 
-participant Doctor identified by doctorId {
-  o String doctorId
-  o String crm
-  o String name
-}
-
-participant Patient identified by pacientId {
-  o String pacientId
-  o String name
-}
-
 transaction ExamTransaction {
   o String examId
   o String title
   o String description
   o String hashCode
   o String locationUrl
-  --> Patient patient
-  --> Doctor doctor
+  o String patient
+  o String doctor
 }
